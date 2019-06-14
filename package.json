@@ -1,0 +1,46 @@
+{
+  "name": "antd-form-plus",
+  "version": "0.1.8",
+  "description": "",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "test": "node ./lib/test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niqingyang/antd-form-plus.git"
+  },
+  "keywords": [
+    "antd",
+    "form",
+    "plus"
+  ],
+  "author": "niqingyang",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "antd": "^3.19.3",
+    "async-validator": "^1.11.2",
+    "dom-scroll-into-view": "^1.2.1",
+    "hoist-non-react-statics": "^3.3.0",
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "warning": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "react-test-renderer": "^16.8.6"
+  }
+}
