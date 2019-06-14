@@ -5,7 +5,7 @@
 ## Installation
 
 ```js
-npm install --antd-form-plus
+npm install --save antd-form-plus
 ```
 
 
@@ -129,4 +129,4 @@ class BasicForms extends React.Component {
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) Copyright (c) 2018 - forever Naufal Rabbani
+[MIT](http://opensource.org/licenses/MIT) Copyright (c) 2019
